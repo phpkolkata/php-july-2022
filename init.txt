@@ -1,1 +1,13 @@
-test
+FrontEnd Web Designing (basic):
+html
+css
+bootstrap (css framework)
+javascript
+jquery (js framework)
+
+BackEnd Web Designing (basic to advance):
+PHP
+Mysql
+Ajax
+Project
+Laravel (php framework)
