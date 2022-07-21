@@ -1,0 +1,31 @@
+/* css area */
+.box {
+  border: 1px dashed red;
+  width: 200px;
+  height: 200px;
+  background: bisque;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.box2 {
+  border: 2px solid blue;
+  background-image: url("../images/1.jpg");
+  color: antiquewhite;
+}
+.mybox {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: auto;
+  display: block;
+  padding: 20px;
+  background-color: #e0e00c;
+}
+.abc {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 20px;
+}

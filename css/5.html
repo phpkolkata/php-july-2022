@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* css by class  */
+      .bdr {
+        border: 1px solid black;
+      }
+      .w200 {
+        width: 200px;
+      }
+      .w100 {
+        width: 100px;
+      }
+      .w50 {
+        width: 50px;
+      }
+      .h200 {
+        height: 200px;
+      }
+      .h100 {
+        height: 200px;
+      }
+      .h50 {
+        height: 200px;
+      }
+      .fRed {
+        color: red;
+      }
+      .fBlue {
+        color: blue;
+      }
+      .bgYellow {
+        background-color: yellow;
+      }
+      .bgGray {
+        background-color: gray;
+      }
+
+      /* css by tag */
+      div {
+        padding: 10px;
+        margin: 10px;
+      }
+      /*  > direct child relation  */
+      /* div > b { */
+      /* #abc > b { */
+      .bdr > b {
+        color: red;
+        font-size: 30px;
+      }
+
+      /* Descendant relation */
+      .bdr b {
+        color: red;
+        font-size: 30px;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+
+      /* parallel css */
+      div,
+      b,
+      span {
+        border: 2px solid red;
+      }
+      /* css by ID */
+      #abc {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <b>bold text 0</b>
+
+    <div class="bdr w200 h50" id="abc">
+      this is div 1 <b>bold text 1</b>
+      <span>
+        <b>bold in span</b>
+      </span>
+    </div>
+    <div class="bdr w100 h100 bgYellow fBlue">
+      this is div 2 <b>bold text 2</b>
+    </div>
+    <div class="bgGray w200 h200">this is div 3 <b>bold text 3</b></div>
+
+    <b>bold text 4</b>
+  </body>
+</html>
